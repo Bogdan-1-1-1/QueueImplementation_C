@@ -24,7 +24,7 @@ public:
     }
     ~Queue() {
     }
-    int push(int value) {
+    void push(int value) {
         if(size > 0) {
             tail->next = new Node(value);
             tail = tail->next;
