@@ -10,7 +10,7 @@ private:
 
             Node(int value) {
                 this->value = value;
-                prev = next = nullptr;
+                prev = next = NULL;
             }
 
     };
